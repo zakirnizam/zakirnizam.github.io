@@ -74,7 +74,7 @@ const educationInfo = {
     {
       schoolName: "Yenepoya University",
       logo: require("./assets/images/Yenepoya.png"),
-      subHeader: "Bachelor of Computer Science",
+      subHeader: "Bachelor of Computer Applications (BCA)",
       duration: "June 2019 - September 2022",
       desc: "I completed a 3-year Bachelor of Computer Applications (BCA) degree with a specialization in Big Data Analytics and Cloud Computing."
     }
@@ -94,7 +94,7 @@ const workExperiences = {
   experience: [
     {
       role: "Frontend Engineer",
-      company: "Niveus Solutions (Part of NTT Data)",
+      company: "Niveus Solutions",
       companylogo: require("./assets/images/NiveusLogo.jpg"),
       date: "June 2022 – Present",
       desc: "Worked across multiple frontend projects, building responsive and scalable interfaces for major financial products using modern tech stacks.",
