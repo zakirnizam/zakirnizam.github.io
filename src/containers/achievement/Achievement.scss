@@ -1,5 +1,9 @@
 @import "../../_globalColor";
 
+.visible {
+  opacity: 1 !important;
+  transition: opacity 0.5s ease-in-out;
+}
 .achievement-heading {
   font-size: 56px;
   font-weight: 400;

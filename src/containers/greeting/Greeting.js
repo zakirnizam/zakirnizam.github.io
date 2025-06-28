@@ -41,13 +41,11 @@ export default function Greeting() {
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
-                  <a
+                  <Button
+                    text="Download my resume"
                     href={require("./Nizam_Frontend_Dev_3_years.pdf")}
                     download="Nizam_Frontend_Dev_3_years.pdf"
-                    className="download-link-button"
-                  >
-                    <Button text="Download my resume" />
-                  </a>
+                  />
                 )}
               </div>
             </div>
@@ -59,7 +57,7 @@ export default function Greeting() {
               <img
                 alt="man sitting on table"
                 src={require("../../assets/images/manOnTable.svg")}
-              ></img>
+              />
             )}
           </div>
         </div>
