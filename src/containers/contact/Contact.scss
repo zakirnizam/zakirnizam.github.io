@@ -2,6 +2,9 @@
 
 .contact-div-main {
   display: flex;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
 }
 
 .dark-mode a {
@@ -24,6 +27,7 @@
   font-weight: 400;
   color: $subTitle;
   text-decoration: none;
+  word-break: break-all;
 }
 
 .contact-detail:hover,
@@ -78,9 +82,21 @@
 
   .contact-detail,
   .contact-detail-email {
-    font-size: 20px;
+    font-size: 16px;
+    word-break: break-all;
   }
 
+  .contact-image-div {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .contact-div-main {
+    flex-direction: column;
+    gap: 16px;
+    align-items: stretch;
+  }
   .contact-image-div {
     display: none;
   }
