@@ -41,30 +41,30 @@ const skillsSection = {
     emoji("⚡ Follow best practices for code quality, performance, and accessibility"),
     emoji("⚡ Collaborate in Agile environments using tools like Jira, GitLab, and Jenkins")
   ],
-  softwareSkills: [
-    { skillName: "HTML5", fontAwesomeClassname: "fab fa-html5" },
-    { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
-    { skillName: "Sass", fontAwesomeClassname: "fab fa-sass" },
-    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
-    { skillName: "TypeScript", fontAwesomeClassname: "devicon-typescript-plain" },
-    { skillName: "ReactJS", fontAwesomeClassname: "fab fa-react" },
-    { skillName: "Redux", fontAwesomeClassname: "devicon-redux-original" },
-    { skillName: "NodeJS", fontAwesomeClassname: "fab fa-node" },
-    { skillName: "Tailwind CSS", fontAwesomeClassname: "devicon-tailwindcss-plain" },
-    { skillName: "Bootstrap", fontAwesomeClassname: "fab fa-bootstrap" },
-    { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
-    { skillName: "GitHub", fontAwesomeClassname: "fab fa-github" },
-    { skillName: "GitLab", fontAwesomeClassname: "fab fa-gitlab" },
-    { skillName: "Firebase", fontAwesomeClassname: "fas fa-fire" },
-    { skillName: "GCP", fontAwesomeClassname: "devicon-googlecloud-plain" },
-    { skillName: "Jest", fontAwesomeClassname: "devicon-jest-plain" },
-    { skillName: "Postman", fontAwesomeClassname: "devicon-postman-plain" },
-    { skillName: "Linux", fontAwesomeClassname: "fab fa-linux" },
-    { skillName: "Figma", fontAwesomeClassname: "fab fa-figma" },
-    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
-    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "SQL", fontAwesomeClassname: "fas fa-database" }
-  ],
+softwareSkills: [
+  { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
+  { skillName: "TypeScript", fontAwesomeClassname: "devicon-typescript-plain" },
+  { skillName: "ReactJS", fontAwesomeClassname: "fab fa-react" },
+  { skillName: "Redux", fontAwesomeClassname: "devicon-redux-original" },
+  { skillName: "NodeJS", fontAwesomeClassname: "fab fa-node" },
+  { skillName: "MongoDB", fontAwesomeClassname: "devicon-mongodb-plain" }, // ✅ Add for MERN
+  { skillName: "ExpressJS", fontAwesomeClassname: "devicon-express-original" }, // ✅ Add for MERN
+  { skillName: "Tailwind CSS", fontAwesomeClassname: "devicon-tailwindcss-plain" },
+  { skillName: "Bootstrap", fontAwesomeClassname: "fab fa-bootstrap" },
+  { skillName: "HTML5", fontAwesomeClassname: "fab fa-html5" },
+  { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
+  { skillName: "Sass", fontAwesomeClassname: "fab fa-sass" },
+  { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
+  { skillName: "GitHub", fontAwesomeClassname: "fab fa-github" },
+  { skillName: "GitLab", fontAwesomeClassname: "fab fa-gitlab" },
+  { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
+  { skillName: "Firebase", fontAwesomeClassname: "fas fa-fire" },
+  { skillName: "GCP", fontAwesomeClassname: "devicon-googlecloud-plain" },
+  { skillName: "Jest", fontAwesomeClassname: "devicon-jest-plain" },
+  { skillName: "Postman", fontAwesomeClassname: "devicon-postman-plain" },
+  { skillName: "Linux", fontAwesomeClassname: "fab fa-linux" },
+  { skillName: "Figma", fontAwesomeClassname: "fab fa-figma" }
+],
   display: true
 };
 
